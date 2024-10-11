@@ -36,6 +36,12 @@ public class DiaryService {
         diaryRepository.delete(longId);
     }
 
+    // 일기 복구
+    void restoreDiary(final String id) {
+        Long longId = Converter.parseId(id);
+        diaryRepository.restore(longId);
+    }
+
     private void checkLength(final String body) {
         if (body.length() > 30) {
             throw new IllegalArgumentException("30글자 초과");

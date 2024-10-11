@@ -35,6 +35,9 @@ public class DiaryController {
         diaryService.patchDiary(id, body);
     }
 
+    final void restore(final String id) {
+        diaryService.restoreDiary(id);
+    }
     enum Status {
         READY,
         RUNNING,

@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50e00b5c-0bcc-4c5e-839d-eabf1186306b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/Diary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sopt/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/Diary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
