@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50e00b5c-0bcc-4c5e-839d-eabf1186306b" name="변경" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-=======
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/DiaryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/api/DiaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryDetailResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryDirectoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/repository/DiaryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/repository/DiaryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/service/Diary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/service/DiaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryService.java" afterDir="false" />
->>>>>>> 847a85af2f211587daa3e95b4edc0e2b4dff703a
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +57,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "onboarding.tips.debug.path": "C:/SOPT/homework/src/main/java/org/sopt/Main.java",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
-=======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -68,10 +67,22 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
->>>>>>> 847a85af2f211587daa3e95b4edc0e2b4dff703a
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.DiaryApplication">
+    <configuration name="DiaryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sopt.diary.DiaryApplication" />
+      <module name="homework.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sopt.diary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sopt.seminar1.Main" />
       <module name="homework.main" />
@@ -87,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.DiaryApplication" />
         <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
