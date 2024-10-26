@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50e00b5c-0bcc-4c5e-839d-eabf1186306b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/DiaryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/api/DiaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryCreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryDetailResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryDirectoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/dto/DiaryUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/repository/DiaryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/repository/DiaryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/service/Diary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sopt/diary/service/DiaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
