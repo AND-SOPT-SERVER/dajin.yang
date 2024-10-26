@@ -1,5 +1,6 @@
 package org.sopt.diary.api;
 
+import org.sopt.diary.Category;
 import org.sopt.diary.dto.*;
 import org.sopt.diary.service.Diary;
 import org.sopt.diary.service.DiaryService;
@@ -19,17 +20,30 @@ public class DiaryController {
 
     @PostMapping("/diaries")
     ResponseEntity<DiaryResponse> createDiary(@RequestBody DiaryCreateRequest diaryCreateRequest) {
-        if (!diaryService.isValid(diaryCreateRequest.getBody())) {
-            throw new IllegalArgumentException("30글자 초과");
-        }
-
         DiaryResponse diaryResponse = diaryService.createDiary(diaryCreateRequest);
         return ResponseEntity.ok(diaryResponse);
     }
 
     @GetMapping("/diaries/list")
-    public ResponseEntity<List<DiaryDirectoryResponse>> getDiaryList() {
-        List<DiaryDirectoryResponse> diaryDirectoryResponses = diaryService.getDiaryList();
+    public ResponseEntity<List<DiaryDirectoryResponse>> getDiaryList(
+            @RequestParam(value = "category", required = false) Category category,
+            @RequestParam(value = "orderBy", required = false) String orderBy) {
+
+        List<DiaryDirectoryResponse> diaryDirectoryResponses;
+
+        if (category != null) {
+            if ("bodyLength".equals(orderBy)) {
+                diaryDirectoryResponses = diaryService.getDiaryByCategoryLength(category);
+            } else {
+                diaryDirectoryResponses = diaryService.getDiaryByCategory(category);
+            }
+        } else {
+            if ("bodyLength".equals(orderBy)) {
+                diaryDirectoryResponses = diaryService.getSortDiary();
+            } else {
+                diaryDirectoryResponses = diaryService.getDiaryList();
+            }
+        }
         return ResponseEntity.ok(diaryDirectoryResponses);
     }
 
@@ -44,10 +58,6 @@ public class DiaryController {
             @PathVariable Long id,
             @RequestBody DiaryUpdateRequest diaryUpdateRequest) {
 
-        if (!diaryService.isValid(diaryUpdateRequest.getBody())) {
-            throw new IllegalArgumentException("30글자 초과");
-        }
-
         DiaryResponse diaryResponse = diaryService.updateDiary(id, diaryUpdateRequest);
         return ResponseEntity.ok(diaryResponse);
     }
@@ -56,17 +66,5 @@ public class DiaryController {
     public ResponseEntity<DiaryResponse> deleteDiary(@PathVariable Long id) {
         DiaryResponse diaryResponse = diaryService.deleteDiary(id);
         return ResponseEntity.ok(diaryResponse);
-    }
-
-    @GetMapping("/post")
-    ResponseEntity<DiaryListResponse> get() {
-        List<Diary> diaryList = diaryService.getList();
-
-        List<DiaryResponse> diaryResponsesList = new ArrayList<>();
-
-        for (Diary diary : diaryList) {
-            diaryResponsesList.add(new DiaryResponse(diary.getId(), diary.getTitle(), diary.getBody()));
-        }
-        return ResponseEntity.ok(new DiaryListResponse(diaryResponsesList));
     }
 }
