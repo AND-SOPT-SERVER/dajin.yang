@@ -1,8 +1,11 @@
 package org.sopt.diary.dto;
 
+import org.sopt.diary.model.Category;
+
 public class DiaryCreateRequest {
     private String title;
     private String body;
+    private Category category;
 
     public DiaryCreateRequest(String title, String body) {
         this.title = title;
@@ -15,5 +18,13 @@ public class DiaryCreateRequest {
 
     public String getBody() {
         return body;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
     }
 }
