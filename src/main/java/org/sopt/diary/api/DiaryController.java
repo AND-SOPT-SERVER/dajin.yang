@@ -1,6 +1,7 @@
 package org.sopt.diary.api;
 
 import org.sopt.diary.model.Category;
+
 import org.sopt.diary.dto.*;
 import org.sopt.diary.service.Diary;
 import org.sopt.diary.service.DiaryService;

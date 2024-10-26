@@ -2,7 +2,6 @@ package org.sopt.diary.repository;
 
 import jakarta.persistence.*;
 import org.sopt.diary.model.Category;
-
 import java.time.LocalDateTime;
 
 @Entity
