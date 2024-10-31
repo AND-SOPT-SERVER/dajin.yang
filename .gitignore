@@ -43,3 +43,6 @@ bin/
 
 .idea/encodings.xml
 .idea/workspace.xml
+
+.yml
+*.yml
