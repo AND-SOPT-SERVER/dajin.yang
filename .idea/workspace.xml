@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e00b5c-0bcc-4c5e-839d-eabf1186306b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sopt/seminar1/DiaryService.java" afterDir="false" />
-    </list>
+    <list default="true" id="50e00b5c-0bcc-4c5e-839d-eabf1186306b" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +43,7 @@
     <option name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <option name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <option name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <option name="onboarding.tips.debug.path" value="C:/SOPT/homework/src/main/java/org/sopt/Main.java" />
+    <option name="onboarding.tips.debug.path" value="$PROJECT_DIR$/../SOPT/homework/src/main/java/org/sopt/Main.java" />
     <option name="project.structure.last.edited" value="프로젝트" />
     <option name="project.structure.proportion" value="0.15" />
     <option name="project.structure.side.proportion" value="0.2" />
