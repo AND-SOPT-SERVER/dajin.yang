@@ -1,4 +1,4 @@
-package org.sopt.diary.service;
+package org.sopt.diary.model;
 
 public class Diary {
     private final long id;
